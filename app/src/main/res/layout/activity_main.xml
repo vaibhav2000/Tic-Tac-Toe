@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/start"
+       android:id="@+id/butt1"
+       android:layout_marginTop="100dp"
+       android:textSize="40dp"
+       android:onClick="startgame"
+       >
+   </Button>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/options"
+        android:id="@+id/butt2"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        android:onClick="optionScreen"
+        >
+    </Button>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:id="@+id/butt3"
+        android:textSize="40dp"
+        android:layout_marginTop="50dp"
+        android:onClick="exitGame"
+        >
+    </Button>
+</LinearLayout>

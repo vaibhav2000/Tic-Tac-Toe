@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainGameActivity"
+    >
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="50dp"
+        android:id="@+id/but11"
+        android:layout_above="@id/but22"
+        android:layout_toLeftOf="@id/but22"
+        android:onClick="playerTook"
+        >
+    </Button>
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="50dp"
+        android:id="@+id/but12"
+        android:layout_alignRight="@id/but22"
+        android:layout_above="@id/but22"
+        android:onClick="playerTook"
+        >
+    </Button>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="50dp"
+        android:id="@+id/but13"
+        android:layout_above="@id/but22"
+        android:layout_toRightOf="@id/but22"
+        android:onClick="playerTook"
+        >
+    </Button>
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="50dp"
+        android:id="@+id/but21"
+        android:layout_alignBaseline="@id/but22"
+        android:layout_toLeftOf="@id/but22"
+        android:onClick="playerTook"
+        >
+    </Button>
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="50dp"
+        android:id="@+id/but22"
+        android:layout_centerInParent="true"
+        android:onClick="playerTook"
+        >
+    </Button>
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="50dp"
+        android:id="@+id/but23"
+        android:layout_alignBaseline="@id/but22"
+        android:layout_toRightOf="@id/but22"
+        android:onClick="playerTook"
+        >
+    </Button>
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="50dp"
+        android:id="@+id/but31"
+        android:layout_below="@id/but22"
+        android:layout_toLeftOf="@id/but22"
+        android:onClick="playerTook"
+        >
+    </Button>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="50dp"
+        android:id="@+id/but32"
+        android:layout_alignRight="@id/but22"
+        android:layout_below="@id/but22"
+        android:onClick="playerTook"
+        >
+    </Button>
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="50dp"
+        android:id="@+id/but33"
+        android:layout_below="@id/but22"
+        android:layout_toRightOf="@id/but22"
+        android:onClick="playerTook"
+        >
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:onClick="reset">
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/but22"
+        android:layout_marginTop="140dp"
+        android:id="@+id/textid">
+    </TextView>
+
+</RelativeLayout>
